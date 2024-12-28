@@ -1,18 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rubikk</title>
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./asset/icon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
+    <title>rubikk | Bui Manh Hung</title>
 </head>
-
 <body>
-    <h1 style="color: white; text-align: center;">
-        <!-- Wow, thế giới này thật đẹp, tôi muốn khám phá thế giới này theo cách của mình .! -->
-    </h1>
-</body>
+<nav>
+    <a href="#" data-section="personal">Personal</a>
+    <a href="#" data-section="life">Life</a>
+</nav>
 
+<div class="container">
+    <div id="personal" class="content active">
+        <h2>Personal</h2>
+        <div class="profile">
+            <div class="avatar">
+                <img src="./asset/icon.png" alt="Your Avatar">
+            </div>
+            <div class="info">
+                <p>Hi, I'm [Your Name], a passionate blogger who loves sharing life experiences and connecting with others.</p>
+                <ul class="contact">
+                    <li><strong>Email:</strong> yourname@example.com</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="experience">
+            <h3>Experience</h3>
+            <ul>
+                <li><strong>Web Developer</strong> at XYZ Company (2021-2024)</li>
+                <li><strong>Content Creator</strong> on My Blog (2019-Present)</li>
+                <li><strong>Freelance Graphic Designer</strong> (2020-2022)</li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <div id="life" class="content">
+        <div class="slogan">
+            <h1>Wow, thế giới này thật đẹp, tôi muốn khám phá thế giới này theo cách của mình .!</h1>
+        </div>
+    
+        <h2>Life</h2>
+        
+        <div class="blog-post">
+            <h3>My Journey to the Mountains</h3>
+            <p><small>Posted on: December 1, 2024</small></p>
+            <p>Last weekend, I embarked on a breathtaking journey to the mountains. The serenity and beauty were unmatched!</p>
+            <img src="https://via.placeholder.com/800x400" alt="Mountains">
+            <div class="share">
+                <button>Share</button>
+            </div>
+        </div>
+    
+        <div class="blog-post">
+            <h3>A Day in the Park</h3>
+            <p><small>Posted on: November 20, 2024</small></p>
+            <p>Spending a peaceful afternoon in the park was the perfect way to unwind and reconnect with nature.</p>
+            <img src="https://via.placeholder.com/800x400" alt="Park">
+            <div class="share">
+                <button>Share</button>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<footer>
+    &copy; 2024 - Last updated: <span id="updateDate"></span> | Created by ChatGPT
+</footer>
+<script src="js/script.js"></script>
+</body>
 </html>
